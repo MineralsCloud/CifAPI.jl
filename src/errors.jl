@@ -57,3 +57,13 @@ const ERROR_CODES = Dict(
     140 => "a null table key was encountered",
     141 => "a line of a prefixed text field body omitted the prefix"
 )
+
+struct CifError <: Exception
+    msg::String
+end
+
+function checkerror(return_code)
+    if return_code != 0
+        throw(CifError(ERROR_CODES[return_code]))
+    end
+end
