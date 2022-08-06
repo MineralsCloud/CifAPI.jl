@@ -1,5 +1,5 @@
-using CEnum
-using cif_api_jll
+using CEnum: @cenum
+using cif_api_jll: libcif
 
 mutable struct cif_container_s end
 
