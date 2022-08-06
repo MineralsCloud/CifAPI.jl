@@ -1,0 +1,6 @@
+[general]
+library_name = "libcif"
+output_file_path = "CifAPI.jl"
+module_name = "CifAPI"
+jll_pkg_name = "cif_api_jll"
+export_symbol_prefixes = ["cif_"]
