@@ -8,6 +8,7 @@ CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 cif_api_jll = "6fcef0ae-1c05-5fc1-b206-1cf994addbad"
 
 [compat]
+CEnum = "0.4"
 julia = "1"
 
 [extras]
